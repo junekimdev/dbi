@@ -45,10 +45,10 @@ func init(){
   // Load environment variables
   err := godotenv.Load(".env")
   if err != nil {
-    t.Errorf("Error loading .env file: %v\n", err)
+    log.Fatalf("Failed to load .env file: %v", err)
   }
   // Connect to DB with env
-  Connect(CreateURIFromEnv().String())
+  dbi.Connect(dbi.CreateURIFromEnv().String())
 }
 
 // User struct
