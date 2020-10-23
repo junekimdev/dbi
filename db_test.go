@@ -19,6 +19,7 @@ func testSetup(t *testing.T) func() {
 	}
 }
 
+// Integration test
 func TestConnect(t *testing.T) {
 	err := godotenv.Load(".env")
 	if err != nil {
@@ -32,7 +33,7 @@ func TestConnect(t *testing.T) {
 	}
 }
 
-// Intergration test
+// Integration test
 func TestQueryFlow(t *testing.T) {
 	teardown := testSetup(t)
 	defer teardown()
