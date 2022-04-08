@@ -2,10 +2,10 @@
 
 Postgresql Database Interface on top of pgx
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/JuneKimDev/dbi)](https://pkg.go.dev/github.com/JuneKimDev/dbi)
-[![Go Report Card](https://goreportcard.com/badge/github.com/JuneKimDev/dbi)](https://goreportcard.com/report/github.com/JuneKimDev/dbi)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/JuneKimDev/dbi)
-![GitHub](https://img.shields.io/github/license/JuneKimDev/dbi)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/junekimdev/dbi)](https://pkg.go.dev/github.com/junekimdev/dbi)
+[![Go Report Card](https://goreportcard.com/badge/github.com/junekimdev/dbi)](https://goreportcard.com/report/github.com/junekimdev/dbi)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/junekimdev/dbi)
+![GitHub](https://img.shields.io/github/license/junekimdev/dbi)
 
 ---
 
@@ -26,7 +26,7 @@ Postgresql Database Interface on top of pgx
 go get it (pun intended :smile_cat:)
 
 ```shell
-go get github.com/JuneKimDev/dbi
+go get github.com/junekimdev/dbi
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ package main
 import (
   "log"
 
-  "github.com/JuneKimDev/dbi"
+  "github.com/junekimdev/dbi"
   "github.com/joho/godotenv"
 )
 
