@@ -1,4 +1,4 @@
-module github.com/JuneKimDev/dbi
+module github.com/junekimdev/dbi
 
 go 1.15
 
